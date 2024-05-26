@@ -1,0 +1,63 @@
+/* estilo.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilos específicos para os elementos do HTML */
+img,
+video,
+audio {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+video,
+audio {
+    outline: none;
+}
+
+/* Estilo para o link de contato */
+a[href="/minha-rotina-css/contato.html"] {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a[href="/minha-rotina-css/contato.html"]:hover {
+    background-color: darkblue;
+}
+
+/* Estilo para o título "Aluno" */
+h1:last-of-type {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Estilo para a descrição da rotina */
+p:last-of-type {
+    text-align: justify;
+    margin-bottom: 50px;
+}
